@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525f90bc32dcb154e9b6c5cc82c3724d, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 9a60c4dfc248b407baf8e507b1d55b82, type: 3}
+  title: 
+  sections:
+  - heading: Welcome to the VR Multiplayer Template
+    text: 'The VR Multiplayer Template utilizes XR Interaction Toolkit, Netcode For
+      GameObjects, and multiple Unity Cloud services for ease of use and scalability.
+      Follow through the in editor tutorials to make sure everything is configured
+      properly and to get an overview of how these packages work within the template. '
+    linkText: 
+    url: 
+  loadedLayout: 1

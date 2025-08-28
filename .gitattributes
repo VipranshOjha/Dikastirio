@@ -1,0 +1,29 @@
+# Unity 3D asset files
+*.asset lfs
+*.fbx lfs
+*.obj lfs
+*.prefab lfs
+*.unity lfs
+
+# Image files
+*.png lfs
+*.jpg lfs
+*.jpeg lfs
+*.psd lfs
+*.tga lfs
+*.gif lfs
+*.tif lfs
+*.tiff lfs
+
+# Audio files
+*.mp3 lfs
+*.wav lfs
+*.ogg lfs
+
+# Video files
+*.mp4 lfs
+*.mov lfs
+
+# Other large files
+*.pdf lfs
+*.zip lfs

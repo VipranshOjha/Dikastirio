@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: 0_TableOfContentsContainer
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 0}
+  OrderInView: 0
+  BackgroundImage: {fileID: 2800000, guid: 1cb97f257e8994a5c8545f0976b6c8ce, type: 3}
+  Title:
+    m_Untranslated: VR Multiplayer Template
+  Subtitle:
+    m_Untranslated: Tutorials, overviews, and resources to get the most out of this
+      template.
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 102900000, guid: 37670e0ca6acc7644a85df17e0bf8c70, type: 3}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Quick Start Guide
+    Text:
+      m_Untranslated: Learn more about the template features
+    Metadata: 
+    Url: https://docs.unity3d.com/Packages/com.unity.template.vr-multiplayer@2.0/manual/index.html
+    Image: {fileID: 2800000, guid: 6d36d245fcffe4a02a7766b89dd5ca5b, type: 3}
+    Tutorial: {fileID: 0}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Bug Reporting
+    Text:
+      m_Untranslated: Report bugs to the XR team
+    Metadata: 
+    Url: https://unity.com/releases/editor/qa/bug-reporting
+    Image: {fileID: 2800000, guid: 6d36d245fcffe4a02a7766b89dd5ca5b, type: 3}
+    Tutorial: {fileID: 0}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Template Feedback
+    Text:
+      m_Untranslated: Tell us about your experience
+    Metadata: 
+    Url: https://unitysoftware.co1.qualtrics.com/jfe/form/SV_eLg9sxLQEon6vf8
+    Image: {fileID: 2800000, guid: 6d36d245fcffe4a02a7766b89dd5ca5b, type: 3}
+    Tutorial: {fileID: 0}

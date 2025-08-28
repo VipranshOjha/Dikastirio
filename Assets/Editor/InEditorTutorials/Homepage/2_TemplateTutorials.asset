@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: 2_TemplateTutorials
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 11400000, guid: 3e67e57680644f64c86783876372c387, type: 2}
+  OrderInView: 2
+  BackgroundImage: {fileID: 2800000, guid: 4e3cf75c7adda4408ac5f9c7d0cb1dfb, type: 3}
+  Title:
+    m_Untranslated: Template Tutorials
+  Subtitle:
+    m_Untranslated: Learn about the specific features and workflows of this template.
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 0}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Basic Scene
+    Text:
+      m_Untranslated: Learn about the bare essentials to getting started in a networked
+        environment.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4c75a3746f8fc44dc91f63501d458ffb, type: 3}
+    Tutorial: {fileID: 11400000, guid: f6b551f3f52baf440a7c3f9780344d11, type: 2}
+  - OrderInView: 1
+    Heading:
+      m_Untranslated: Player Setup Overview
+    Text:
+      m_Untranslated: Learn about the basic Player Setup in the Sample Scene.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4c75a3746f8fc44dc91f63501d458ffb, type: 3}
+    Tutorial: {fileID: 11400000, guid: 51cece16d2f9c1445b6dfb1cd75a96ab, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: Lobby and Rooms Overview
+    Text:
+      m_Untranslated: Learn how to connect to other players with UGS Lobby.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4c75a3746f8fc44dc91f63501d458ffb, type: 3}
+    Tutorial: {fileID: 11400000, guid: aa1e4443b37474219b67d4a5de1cae1a, type: 2}
+  - OrderInView: 3
+    Heading:
+      m_Untranslated: Sample Scene Examples
+    Text:
+      m_Untranslated: Learn about the numerous examples and how you can utilize them
+        as a starting point for your project.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4c75a3746f8fc44dc91f63501d458ffb, type: 3}
+    Tutorial: {fileID: 11400000, guid: fea33a372fdec684abe88ea044d9b24f, type: 2}
+  - OrderInView: 4
+    Heading:
+      m_Untranslated: 'Mini Games '
+    Text:
+      m_Untranslated: Learn about the included Mini Games and how you can use them
+        as a starting point for your project.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4c75a3746f8fc44dc91f63501d458ffb, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5d3e2d1cc14b9cf4086f01a607380a7f, type: 2}
