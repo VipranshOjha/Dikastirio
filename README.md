@@ -2,7 +2,6 @@
 
 
 
-*A submission for the **Inya.ai Buildathon 2025***
 (Work in Progress)
 
 
@@ -169,20 +168,6 @@ Unlike video calls, Dikastirio is not just a communication platform — it’s a
 
 
 
-## 👥 Team Dikastirio
-
-
-
-* **Vipransh Ojha** – Project Lead & AI Architect
-
-* **Priyansh Vaish** – VR Courtroom Designer & Unity Development Lead
-
-
-
----
-
-
-
 ## 🌟 Why Dikastirio?
 
 
@@ -197,7 +182,13 @@ It brings back **decorum, order, and trust** — values lost in today’s flat e
 
 
 
-👉 *Submission for **Inya.ai Buildathon 2025***
+## 👥 Team Dikastirio
+
+
+
+* **Vipransh Ojha** – Project Lead & AI Architect
+
+* **Priyansh Vaish** – VR Courtroom Designer & Unity Development Lead
 
 
 
