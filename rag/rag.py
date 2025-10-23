@@ -2,7 +2,7 @@ import PyPDF2
 import os
 import chromadb
 from sentence_transformers import SentenceTransformer
-from datetime import datetime  # ✅ Added missing import
+from datetime import datetime  
 
 
 # Extract text from the pdf
@@ -79,7 +79,7 @@ ipc_chunks = legal_document_chunker(ipc_text)
 constitution_chunks = legal_document_chunker(constitution_text)
 
 
-# ✅ Fixed: Moved function outside of class
+
 def get_legal_context_for_query(query, rag_system, max_context_length=2000):
     """Get relevant legal context for a query to feed into your fine-tuned model"""
     results = rag_system.search_legal_context(query, n_results=3)
@@ -114,7 +114,7 @@ class LegalRAGSystem:
         )
 
         self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
-        print(f"✅ ChromaDB collection '{collection_name}' initialized")
+        print(f" ChromaDB collection '{collection_name}' initialized")
 
     def add_documents(self, chunks, doc_type, source_file):
         """Add document chunks to vector database"""
@@ -141,7 +141,7 @@ class LegalRAGSystem:
             ids=ids
         )
 
-        print(f"✅ Added {len(documents)} chunks from {doc_type}")
+        print(f" Added {len(documents)} chunks from {doc_type}")
 
     def search_legal_context(self, query, n_results=5):
         """Search for relevant legal context"""
@@ -164,13 +164,13 @@ class EnhancedLegalRAG(LegalRAGSystem):
 
         try:
             self.embedding_model = SentenceTransformer('Stern5497/sbert-legal-xlm-roberta-base')
-            print("✅ Using legal-specific embedding model")
+            print(" Using legal-specific embedding model")
         except:
-            print("⚠️  Legal model not available, using general model")
+            print(" Legal model not available, using general model")
             self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
-# ✅ Fixed: Made this a standalone function
+
 def query_legal_system(user_question, rag_system, fine_tuned_model=None):
     """Complete RAG pipeline for legal queries"""
     legal_context = get_legal_context_for_query(user_question, rag_system)
@@ -244,11 +244,12 @@ def main():
     for source in final_result['sources']:
         print(f" - {source}")
 
-    print("\n📝 Final Prompt for the Fine-Tuned Model:")
+    print("\n Final Prompt for the Fine-Tuned Model:")
     print("-----------------------------------------")
     print(final_result['prompt'])
     print("-----------------------------------------")
 
 
 if __name__ == "__main__":
+
     main()
